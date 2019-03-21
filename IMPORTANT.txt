@@ -1,0 +1,11 @@
+:::TO DO:::
+
+1. create PDF function (report of purchase/s to be written on the PDF/s).
+
+2. "pagination". http://www.w3schools.com/howto/howto_css_pagination.asp 
+
+3. alter customer table into a cashier table
+
+4. add confirmation option module for admin upon recieving PDF to either confirm or cancel transaction/s.
+
+5. e-mail PDF/s to customers upon purchase.

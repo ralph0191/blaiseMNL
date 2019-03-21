@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,  div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+color: #e8ecf2;
+	background:url('../images/body_bg.jpg');
+	
+	font-family:PT Serif;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	-moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	/* FOR SMOOTH TRANSITION EFFECT */
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.main_wrapper{
+	width:1000px;
+	margin:auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow:auto;
+}
+
+.header_wrapper{
+	width:100%;
+	height:100px;
+	margin:auto;
+	border-bottom:5px groove orange;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align:center;
+}
+
+.header_wrapper h1{
+	display:inline;
+	color:#e6e6e6;
+	font-size:70px;
+	line-height:120px;
+	transition: all 0.3s ease-in-out;
+}
+
+.header_wrapper h1:hover{
+	color:fff;
+	text-shadow: 2px 2px 5px orange;
+	transition: all 0.3s ease-in-out;
+}
+
+#container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#left{
+min-height:600px;
+max-height:600px;
+background-color: rgba(237, 237, 237,.03);
+overflow-y:auto;
+overflow-x:hidden;
+display:block;
+}
+#right {
+width:200px;
+min-height:600px;
+float:right;
+border-left:5px groove orange;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+footer {
+	width:100%;
+	height:50px;
+	background-color: rgba(0, 0, 0, 1);
+	clear:both;
+	color:#fff;
+	text-align:center;	
+	font-size:13px;
+	line-height:50px;
+	border-top:5px groove orange;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
